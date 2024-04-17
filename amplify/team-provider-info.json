@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-techhouseacademy-dev-73af4-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767398036670:role/amplify-techhouseacademy-dev-73af4-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767398036670:role/amplify-techhouseacademy-dev-73af4-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-techhouseacademy-dev-73af4-deployment",
+      "UnauthRoleName": "amplify-techhouseacademy-dev-73af4-unauthRole",
+      "StackName": "amplify-techhouseacademy-dev-73af4",
+      "StackId": "arn:aws:cloudformation:us-east-1:767398036670:stack/amplify-techhouseacademy-dev-73af4/32e844e0-faed-11ee-9e79-0affe462460d",
+      "AmplifyAppId": "d2cekicenoa68a"
+    },
+    "categories": {
+      "auth": {
+        "techhouseacademye7ff092a": {}
+      },
+      "storage": {
+        "s39493da75": {}
+      }
+    }
+  }
+}

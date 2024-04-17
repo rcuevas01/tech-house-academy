@@ -1,5 +1,6 @@
 import { type AppType } from "next/app";
 import { Inter } from "next/font/google";
+import { MantineProvider } from '@mantine/core';
 
 import { api } from "~/utils/api";
 
@@ -11,9 +12,11 @@ const inter = Inter({
 });
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
+    <MantineProvider>
     <main className={`font-sans ${inter.variable}`}>
       <Component {...pageProps} />
     </main>
+    </MantineProvider>
   );
 };
 
