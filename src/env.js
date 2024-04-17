@@ -11,7 +11,7 @@ export const env = createEnv({
       .string()
       .url()
       .refine(
-        (str) => !str.includes("YOUR_MYSQL_URL_HERE"),
+        (str) => !str.includes("postgresql://postgres:922WwJLhAulJZHBF@localhost:5432/tech-house-academy"),
         "You forgot to change the default URL"
       ),
     NODE_ENV: z
