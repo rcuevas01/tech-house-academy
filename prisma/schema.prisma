@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:922WwJLhAulJZHBF@localhost:5432/tech-house-academy"
+  url      = env("DATABASE_URL")
 }
 
 model Post {
